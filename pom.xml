@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.omniwrap.generated</groupId>
+  <artifactId>codejackrabbit-sdk</artifactId>
+  <version>0.2.0</version>
+  <description>Official OpenAPI 3.1.0 specification for CodeJackRabbit (`cjr`) -- 5-stage autonomous code review, blast-radius graph, multi-file autofix, supply-chain SBOM, contract drift, SARIF 2.1.0 compliance gates, stacked PR splitting, FinOps guard, and @jackai/app-sdk multi-surface SaaS metering.</description>
+  <licenses><license><name>Proprietary</name></license></licenses>
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <build>
+    <resources>
+      <resource>
+        <directory>${project.basedir}</directory>
+        <includes>
+          <include>api.md</include>
+          <include>LICENSE</include>
+          <include>omniwrap-artifact.json</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+</project>

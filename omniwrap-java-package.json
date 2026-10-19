@@ -1,0 +1,10 @@
+{
+  "$schema": "https://omniwrap.dev/schemas/java-package/v2.json",
+  "archive_type": "jar",
+  "artifact_id": "codejackrabbit-sdk",
+  "group_id": "dev.omniwrap.generated",
+  "java_release": 17,
+  "public_entry_class": "dev.omniwrap.codejackrabbit.sdk.ApiClient",
+  "source_version": "0.2.0",
+  "version": "0.2.0"
+}
